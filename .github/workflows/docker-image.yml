@@ -35,4 +35,4 @@ jobs:
           push: true
           build-args: |
             CLOAK_VER=$CLOAK_VER
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/cloak:$CLOAK_VER
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/cloak:${{ CLOAK_VER }}
